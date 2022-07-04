@@ -1,0 +1,17 @@
+---
+title: "Introduction"
+output:
+  html_document:
+    includes:
+      in_header: hero-image.html
+    css: style.css
+---
+
+Hi<img src="waving-wave.gif" 
+     width="40" 
+     height="40"/>, I am **Md Jaffar Mollah**
+     
+Check the top bar for exploring more in this website. There are different tabs for looking into my **profile**, keeping check on **projects**, **resume** and ways to **connect with me**.
+
+**Statopedia** is a one stop platform being built to cater to students requirement of materials interested in Statistics as a field and the various applications of it.
+
