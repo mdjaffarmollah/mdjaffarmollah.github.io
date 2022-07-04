@@ -6,7 +6,7 @@ navbar:
   - text: Home
     href: index.html
   - text: About Me
-    href: about.html
+    href: test.md
   - text: Resume
     href: https://1drv.ms/b/s!ApFYtM4ZFefbgxhB6XJHz300yGeK
   - text: Projects
