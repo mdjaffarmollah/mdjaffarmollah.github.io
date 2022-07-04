@@ -1,0 +1,18 @@
+name: My Website
+output_dir: "docs"
+navbar:
+  title: "My Website"
+  right:
+  - text: Home
+    href: index.html
+  - text: About Me
+    href: about.html
+  - text: Resume
+    href: about.html
+  - text: Projects
+    href: readings.html
+  - text: Statopedia
+    href: readings.html
+  - text: Hire Me!
+    href: readings.html
+    
