@@ -1,44 +1,17 @@
 ---
-title: "My Website"
-output: 
-  flexdashboard::flex_dashboard:
-    orientation: columns
-    vertical_layout: fill
-    theme: yeti
+title: ""
+output:
+  html_document:
+    includes:
+      in_header: hero-image.html
+    css: style.css
 ---
 
-```{r setup, include=FALSE}
-library(flexdashboard)
-```
+Hi<img src="waving-wave.gif" 
+     width="40" 
+     height="40"/>, I am **Md Jaffar Mollah**
+     
+Check the top bar for exploring more in this website. There are different tabs for looking into my **profile**, keeping check on **projects**, **resume** and ways to **connect with me**.
 
-About Me
-===================================================================
-
-Column {data-width=650}
------------------------------------------------------------------------
-
-### Chart A
-
-```{r}
-
-```
-
-Column {data-width=350}
------------------------------------------------------------------------
-
-### Chart B
-
-```{r}
-
-```
-
-### Chart C
-
-```{r}
-
-```
-
-GitHub
-===========================================================================
-
+**Statopedia** is a one stop platform being built to cater to students requirement of materials interested in Statistics as a field and the various applications of it.
 
