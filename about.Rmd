@@ -1,0 +1,100 @@
+---
+title: "&nbsp;"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    css: custom.css
+---
+
+<script>
+  $(document).ready(function() {
+    $('#TOC').parent().prepend('<div id=\"nav_logo\"><img src=\"myimage.png\"></div>');
+  });
+</script>
+
+<style>
+#nav_logo {
+  border-radius: 50%;
+  width: 100%;
+  margin-top: 20px;
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css, echo = FALSE}
+
+.section.level2 {
+  display: none;
+}
+
+```
+
+```{js, echo = FALSE}
+
+$(document).ready(function () {
+
+  $('.section.level2:first').show();
+
+});
+
+// force this to wait till all the other js is loaded
+$(window).on('load', function() {
+
+  $('.tocify-item.list-group-item').click(function(event){
+
+    $('.section.level2').hide();
+
+    var id = $(this).data('unique');
+
+    $('#'+id).show();
+
+  });
+
+});
+  
+```
+
+## Expertise {#Expertise}
+
+- Expertise in analyzing and coordinating data, generating reports, tables, listings and graphs in either HTML, PDF or RTF formats according to the client specifications using SAS/R/Python.
+
+- Extensive use of [SQL to perform queries, join tables, etc.]()
+
+- Working on different libraries [pandas, numpy, sklearn, statsmodels, etc.](https://pandas.pydata.org)
+in python.
+
+- Data Visualization using [matplotlib](), [seaborn](), [plotly](), [cufflinks]() in python
+and [ggplot2, plotly]() using R
+
+- Dashboard Preparation using [Shiny](), Power BI and Tableau
+
+- Extensive knowledge of statistical techniques--Linear and Logistic
+Regression, GLM, Factor analysis, Support Vector Machines, Multivariate
+Analysis, Stochastic modeling.
+
+- Text Analytics, Data Mining techniques (Clustering, Classification, Association), Market Basket Research using R
+
+- Fuzzy matching, Predictive modeling and building efficient algorithms using machine learning techniques in python
+
+- Packages:
+
+
+
+## Tools {#Tools}
+
+<img src = "https://github.com/devicons/devicon/blob/master/icons/rstudio/rstudio-original.svg" 
+height = "40"
+width = "40" />
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots {#Including_Plots}
+

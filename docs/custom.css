@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+ /*------------- Whole Document---------------- */
+
+body {
+    font-family: 'Lato';
+    font-size: 20px;
+    color: black;
+    background-color: transparent;
+}
+
