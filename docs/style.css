@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Lato';
-    font-size: 28px;
+    font-size: 24px;
     background-color: transparent;
 }
 
@@ -12,7 +12,7 @@ body {
 /*----------------ADDING WHITE SPACE-------------*/
 
 .title {
-  margin-top: 1em !important;
+  margin-top: 0.5em !important;
   margin-bottom: 0.75em;
 }
 
