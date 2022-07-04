@@ -1,4 +1,9 @@
-# mdjaffarmollah.github.io
+# Welcome to my website
 
-This is the first page of my bio
-editing for check New thing check again check again
+A common website for my profile as well as projects generated through GitHub\
+
+For the love of statistics, creating a new place for all statistical help\
+
+Hire Me if you like my profile
+
+
