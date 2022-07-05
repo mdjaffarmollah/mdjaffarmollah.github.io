@@ -6,14 +6,19 @@ output:
     toc_float: true
     toc_depth: 2
     css: custom.css
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
+```{=html}
 <script>
   $(document).ready(function() {
     $('#TOC').parent().prepend('<div id=\"nav_logo\"><img src=\"myimage.png\"></div>');
   });
 </script>
-
+```
+```{=html}
 <style>
 #nav_logo {
   border-radius: 50%;
@@ -21,8 +26,7 @@ output:
   margin-top: 20px;
 }
 </style>
-
-
+```
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -62,46 +66,38 @@ $(window).on('load', function() {
 
 ## Expertise {#Expertise}
 
-- Expertise in analyzing and coordinating data, generating reports, tables, listings and graphs in either HTML, PDF or RTF formats according to the client specifications using SAS/R/Python.
+-   Expertise in analyzing and coordinating data, generating reports,
+    tables, listings and graphs in either HTML, PDF or RTF formats
+    according to the client specifications using SAS/R/Python.
 
-- Extensive use of [SQL to perform queries, join tables, etc.]()
+-   Extensive use of [SQL to perform queries, join tables, etc.]()
 
-- Working on different libraries [pandas, numpy, sklearn, statsmodels, etc.](https://pandas.pydata.org)
-in python.
+-   Working on different libraries [pandas, numpy, sklearn, statsmodels,
+    etc.](https://pandas.pydata.org) in python.
 
-- Data Visualization using [matplotlib](), [seaborn](), [plotly](), [cufflinks]() in python
-and [ggplot2, plotly]() using R
+-   Data Visualization using [matplotlib](), [seaborn](), [plotly](),
+    [cufflinks]() in python and [ggplot2, plotly]() using R
 
-- Dashboard Preparation using [Shiny](), Power BI and Tableau
+-   Dashboard Preparation using [Shiny](), Power BI and Tableau
 
-- Extensive knowledge of statistical techniques--Linear and Logistic
-Regression, GLM, Factor analysis, Support Vector Machines, Multivariate
-Analysis, Stochastic modeling.
+-   Extensive knowledge of statistical techniques--Linear and Logistic
+    Regression, GLM, Factor analysis, Support Vector Machines,
+    Multivariate Analysis, Stochastic modeling.
 
-- Text Analytics, Data Mining techniques (Clustering, Classification, Association), Market Basket Research using R
+-   Text Analytics, Data Mining techniques (Clustering, Classification,
+    Association), Market Basket Research using R
 
-- Fuzzy matching, Predictive modeling and building efficient algorithms using machine learning techniques in python
+-   Fuzzy matching, Predictive modeling and building efficient
+    algorithms using machine learning techniques in python
 
 ## Tools {#Tools}
 
-<img src = "https://d33wubrfki0l68.cloudfront.net/1ac3f0e3753f18c7e2a8893957d1841fba1e3d08/48a33/wp-content/uploads/2018/10/rstudio-logo-flat.png" 
-height = "40"
-width = "100" />
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/2560px-SAS_logo_horiz.svg.png" 
-height = "40"
-width = "100" />
-<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png" 
-height = "40"
-width = "120" />
-<img src = "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" 
-height = "40"
-width = "100" />
-<img src = "https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_powerbi_logo_icon_169958.png" 
-height = "60"
-width = "120" />
-<img src = "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" 
-height = "40"
-width = "140" />
+<img src="https://d33wubrfki0l68.cloudfront.net/1ac3f0e3753f18c7e2a8893957d1841fba1e3d08/48a33/wp-content/uploads/2018/10/rstudio-logo-flat.png" height="40" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/2560px-SAS_logo_horiz.svg.png" height="40" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png" height="40" width="120"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" height="40" width="100"/>
+<img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_powerbi_logo_icon_169958.png" height="60" width="120"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" height="40" width="140"/>
 
 ```{r, echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE}
 library(plotly)
@@ -116,8 +112,54 @@ plot_ly(z, y = ~rating, x = ~tools, type = 'bar', color = I('black')) %>%
 
 ```
 
+## WorkExperience {#WorkExperience}
 
-## Education {#Education}
-
-
-
++----------------------------------------+--------------------------------+
+| **Capabilities and Insights Analyst**  | **Mckinsey Knowledge Centre    |
+|                                        | India Pvt. Ltd.**              |
+| -   Working in the **Economics         |                                |
+|     Research** analyzing data based on | **Gurugram**                   |
+|     client requirements.               |                                |
+|                                        | ![](mckinsey_logo.jpg)         |
+| -   **Automating model** to study the  |                                |
+|     effects of automation on different | **6th Dec 2021 - 27th Jan      |
+|     occupations in Labor Market across | 2022**                         |
+|     different countries.               |                                |
++========================================+:==============================:+
+| **Actuarial Analyst**                  | **Swiss Re Global Business     |
+|                                        | Solutions India Pvt. Ltd.**    |
+| -   **Governance and Audit of          |                                |
+|     experience studies in Asia**       | **Bengaluru**                  |
+|     Market                             |                                |
+|                                        | ![](Swiss_Re_logo.png)         |
+| -   Built **End to End ES Global Model |                                |
+|     for Experience Analysis** on R by  | **1st July 2020 - 3rd Dec      |
+|     creating **3 R packages and Shiny  | 2021**                         |
+|     App** for visualization **using    |                                |
+|     Git setup and Azure**              |                                |
+|                                        |                                |
+| -   Identification of different risk   |                                |
+|     factors driving business in        |                                |
+|     different regions in Asia.         |                                |
+|                                        |                                |
+| -   Performed **experience studies for |                                |
+|     UK Market**                        |                                |
++----------------------------------------+--------------------------------+
+| **Executive - Actuarial**              | Max Bupa Health Insurance Co   |
+|                                        | Pvt. Ltd.                      |
+| -   Worked under the Analytics team to |                                |
+|     clean raw data and                 | New Delhi                      |
+|     process the data to get the final  |                                |
+|     output and generate                | ![](Max-Bupa_logo.jpg)         |
+|     reports in html and rtf formats.   |                                |
+|                                        | **12th April 2017 - 10th       |
+| -   Preparation of **Monthly MIS** for | August 2017**                  |
+|     various departments.               |                                |
+|                                        |                                |
+| -   Worked on building automation      |                                |
+|     process to handle the data in the  |                                |
+|     calculation of premium and claims. |                                |
+|                                        |                                |
+| -   Worked on **building the           |                                |
+|     Reinsurance model.**               |                                |
++----------------------------------------+--------------------------------+
