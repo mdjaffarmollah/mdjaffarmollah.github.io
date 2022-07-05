@@ -10,13 +10,11 @@ output:
 <form action="https://formspree.io/f/xrgjwejj" method="POST">
 <p id = "p0">
   <label>
-    Your email: <br>
-    <input type="email" name="email" size = "50">
+    <input type="email" name="email" size = "50" placeholder = "Your email"/>
   </label>
   <br><br>
   <label>
-    Your message: <br>
-    <textarea name="message" rows="10" cols="50"></textarea>
+    <textarea name="message" rows="10" cols="50" placeholder = "Your Message"></textarea>
   </label>
   <br>
   <!-- your other form fields go here -->
