@@ -1,0 +1,25 @@
+---
+title: "&nbsp;"
+output:
+  html_document:
+    css: custom.css
+---
+
+<!-- modify this form HTML and place wherever you want your form -->
+<h2>Get in Touch </h2>
+<form action="https://formspree.io/f/xrgjwejj" method="POST">
+<p id = "p0">
+  <label>
+    Your email: <br>
+    <input type="email" name="email" size = "50">
+  </label>
+  <br><br>
+  <label>
+    Your message: <br>
+    <textarea name="message" rows="10" cols="50"></textarea>
+  </label>
+  <br>
+  <!-- your other form fields go here -->
+  <button type="submit" size = "10">Send</button>
+ </p id = "p0">
+</form>
