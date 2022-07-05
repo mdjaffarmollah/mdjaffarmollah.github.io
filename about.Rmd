@@ -114,67 +114,123 @@ plot_ly(z, y = ~rating, x = ~tools, type = 'bar', color = I('black')) %>%
 
 ## WorkExperience {#WorkExperience}
 
-+:-------------------------------------------+:-----------------------------:+
-| **Capabilities and Insights Analyst**      | **Mckinsey Knowledge Centre   |
-|                                            | India Pvt. Ltd.**             |
-| -   Working in the **Economics Research**  |                               |
-|     analyzing data based on client         | **Gurugram**                  |
-|     requirements.                          |                               |
-|                                            | ![](mc                        |
-| -   **Automating model** to study the      | kinsey_logo.jpg){width="271"} |
-|     effects of automation on different     |                               |
-|     occupations in Labor Market across     | **6th Dec 2021 - 27th Jan     |
-|     different countries.                   | 2022**                        |
-+--------------------------------------------+-------------------------------+
-| **Actuarial Analyst**                      | **Swiss Re Global Business    |
-|                                            | Solutions India Pvt. Ltd.**   |
-| -   **Governance and Audit of experience   |                               |
-|     studies in Asia** Market               | **Bengaluru**                 |
-|                                            |                               |
-| -   Built **End to End ES Global Model for | ![](Sw                        |
-|     Experience Analysis** on R by creating | iss_Re_logo.png){width="302"} |
-|     **3 R packages and Shiny App** for     |                               |
-|     visualization **using Git setup and    | **1st July 2020 - 3rd Dec     |
-|     Azure**                                | 2021**                        |
-|                                            |                               |
-| -   Identification of different risk       |                               |
-|     factors driving business in different  |                               |
-|     regions in Asia.                       |                               |
-|                                            |                               |
-| -   Performed **experience studies for UK  |                               |
-|     Market**                               |                               |
-+--------------------------------------------+-------------------------------+
-| **Executive - Actuarial**                  | **Max Bupa Health Insurance   |
-|                                            | Co Pvt. Ltd.**                |
-| -   Worked under the Analytics team to     |                               |
-|     clean raw data and process the data to | **New Delhi**                 |
-|     get the final output and generate      |                               |
-|     reports in html and rtf formats.       | ![](Ma                        |
-|                                            | x-Bupa_logo.jpg){width="275"} |
-| -   Preparation of **Monthly MIS** for     |                               |
-|     various departments.                   | **12th April 2017 - 10th      |
-|                                            | August 2017**                 |
-| -   Worked on building automation process  |                               |
-|     to handle the data in the calculation  |                               |
-|     of premium and claims.                 |                               |
-|                                            |                               |
-| -   Worked on **building the Reinsurance   |                               |
-|     model.**                               |                               |
-+--------------------------------------------+-------------------------------+
++:-------------------------------------+:-----------------------:+
+| **Capabilities and Insights          | **Mckinsey Knowledge    |
+| Analyst**                            | Centre India Pvt.       |
+|                                      | Ltd.**                  |
+| -   Working in the **Economics       |                         |
+|     Research** analyzing data based  | **Gurugram**            |
+|     on client requirements.          |                         |
+|                                      | **6th Dec 2021 - 27th   |
+| -   **Automating model** to study    | Jan 2022**              |
+|     the effects of automation on     |                         |
+|     different occupations in Labor   |                         |
+|     Market across different          |                         |
+|     countries.                       |                         |
++--------------------------------------+-------------------------+
+| **Actuarial Analyst**                | **Swiss Re Global       |
+|                                      | Business Solutions      |
+| -   **Governance and Audit of        | India Pvt. Ltd.**       |
+|     experience studies in Asia**     |                         |
+|     Market                           | **Bengaluru**           |
+|                                      |                         |
+| -   Built **End to End ES Global     | **1st July 2020 - 3rd   |
+|     Model for Experience Analysis**  | Dec 2021**              |
+|     on R by creating **3 R packages  |                         |
+|     and Shiny App** for              |                         |
+|     visualization **using Git setup  |                         |
+|     and Azure**                      |                         |
+|                                      |                         |
+| -   Identification of different risk |                         |
+|     factors driving business in      |                         |
+|     different regions in Asia.       |                         |
+|                                      |                         |
+| -   Performed **experience studies   |                         |
+|     for UK Market**                  |                         |
++--------------------------------------+-------------------------+
+| **Executive - Actuarial**            | **Max Bupa Health       |
+|                                      | Insurance Co Pvt.       |
+| -   Worked under the Analytics team  | Ltd.**                  |
+|     to clean raw data and process    |                         |
+|     the data to get the final output | **New Delhi**           |
+|     and generate reports in html and |                         |
+|     rtf formats.                     | **12th April 2017 -     |
+|                                      | 10th August 2017**      |
+| -   Preparation of **Monthly MIS**   |                         |
+|     for various departments.         |                         |
+|                                      |                         |
+| -   Worked on building automation    |                         |
+|     process to handle the data in    |                         |
+|     the calculation of premium and   |                         |
+|     claims.                          |                         |
+|                                      |                         |
+| -   Worked on **building the         |                         |
+|     Reinsurance model.**             |                         |
++--------------------------------------+-------------------------+
 
 ## Education {#Education}
 
-+---------------+----------+--------------------------+---------------+
-| Degree        | Year     | University               | Grade         |
-+:=============:+:========:+:========================:+:=============:+
-| M.Sc          | 2020     | University of Madras,    | 8.85          |
-| (Statistics)  |          | Chennai                  |               |
-+---------------+----------+--------------------------+---------------+
-| Certificate   | 2017     | OrangeTree Global,       | --            |
-| in BIBA       |          | Kolkata                  |               |
-| (Business     |          |                          |               |
-| Analytics)    |          |                          |               |
-+---------------+----------+--------------------------+---------------+
-| B.Sc          | 2015     | Presidency University,   | 7.67          |
-| (Statistics)  |          | Kolkata                  |               |
-+---------------+----------+--------------------------+---------------+
++--------------+--------------+--------------+--------------+
+| Degree       | Year         | University   | Grade        |
++:============:+:============:+:============:+:============:+
+| M.Sc         | 2020         | University   | 8.85         |
+| (Statistics) |              | of Madras,   |              |
+|              |              | Chennai      |              |
++--------------+--------------+--------------+--------------+
+| Certificate  | 2017         | OrangeTree   | --           |
+| in BIBA      |              | Global,      |              |
+| (Business    |              | Kolkata      |              |
+| Analytics)   |              |              |              |
++--------------+--------------+--------------+--------------+
+| B.Sc         | 2015         | Presidency   | 7.67         |
+| (Statistics) |              | University,  |              |
+|              |              | Kolkata      |              |
++--------------+--------------+--------------+--------------+
+
+## Certifications {#Certifications}
+
+-   **Topper in Marketing Research and Analysis-II** conducted **by
+    IIT-Roorkee** through NPTEL
+
+-   **Programming, Data Structure and Algorithms using Python**
+    conducted by **Chennai Mathematical Institute** through NPTEL
+
+-   **Topper in Data Science for Engineers** and **Python for Data
+    Science** by **IIT-Madras** through NPTEL
+
+-   **Machine Learning A-Z: Hands-On Python & R in Data Science and
+    Python for Machine Learning and Data Science Bootcamp by Udemy**
+
+-   **Financial Risk Analytics by Great Learning, Chennai**
+
+-   **Predictive Analytics from Indian Institute of Management,
+    Bangalore** through Swayam
+
+-   **Attended Summer Course on Analytics** conducted by **IIT --
+    Guwahati**
+
+## Miscellaneous {#Miscellaneous}
+
+-   **Won 3rd Prize in All-India Essay Competition conducted by Ministry
+    of Statistics and Programme
+    Implementation (MoSPi), Government of India.**
+
+-   **Internship -- CSIR -- Central Leather Research Institute, Chennai
+    (**May 2019)
+
+    -   Worked on building an ARIMA model and forecasting the export
+        value of leather and leather goods in India from 1994-2017.
+
+    -   Prepared SPSS script codes to automate the work for doing data
+        validation and analysis of the data available under the
+        department.
+
+    -   Linking the various files to produce output according to the
+        desired template.
+
+-   **Student Member of Institute of Actuaries of India**
+
+    -   Cleared CS1 -- Actuarial Statistics
+
+-   Work **part time as an Online Statistics Subject Expert in Chegg
+    Inc.** since September, 2016
