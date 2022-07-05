@@ -82,19 +82,42 @@ Analysis, Stochastic modeling.
 
 - Fuzzy matching, Predictive modeling and building efficient algorithms using machine learning techniques in python
 
-- Packages:
-
-
-
 ## Tools {#Tools}
 
-<img src = "https://github.com/devicons/devicon/blob/master/icons/rstudio/rstudio-original.svg" 
+<img src = "https://d33wubrfki0l68.cloudfront.net/1ac3f0e3753f18c7e2a8893957d1841fba1e3d08/48a33/wp-content/uploads/2018/10/rstudio-logo-flat.png" 
 height = "40"
-width = "40" />
+width = "100" />
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SAS_logo_horiz.svg/2560px-SAS_logo_horiz.svg.png" 
+height = "40"
+width = "100" />
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png" 
+height = "40"
+width = "120" />
+<img src = "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" 
+height = "40"
+width = "100" />
+<img src = "https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_powerbi_logo_icon_169958.png" 
+height = "60"
+width = "120" />
+<img src = "https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" 
+height = "40"
+width = "140" />
 
-```{r cars}
-summary(cars)
+```{r, echo=FALSE,eval=TRUE,warning=FALSE,message=FALSE}
+library(plotly)
+z <- data.frame (tools = c('SAS','R','Python','SQL','Power BI','Tableau'),
+                 rating = c(5,5,4,4,3,3))
+
+plot_ly(z, y = ~rating, x = ~tools, type = 'bar', color = I('black')) %>%
+  layout(title = "Proficiency Rating",
+         xaxis = list(title = "", tickfont = list(size = 14)), 
+         yaxis = list(title = "", showgrid = FALSE)
+         )
+
 ```
 
-## Including Plots {#Including_Plots}
+
+## Education {#Education}
+
+
 

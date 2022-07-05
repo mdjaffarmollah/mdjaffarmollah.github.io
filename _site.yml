@@ -6,15 +6,15 @@ navbar:
   - text: Home
     href: index.html
   - text: About Me
-    href: test.md
+    href: about.html
   - text: Resume
     href: https://1drv.ms/b/s!ApFYtM4ZFefbgxhB6XJHz300yGeK
   - text: Projects
     href: readings.html
   - text: Github
-    href: readings.html
+    href: https://github.com/mdjaffarmollah
   - text: Statopedia
-    href: readings.html
+    href: https://mdjaffarmollah.github.io/statopedia/
   - text: Hire Me!
     href: readings.html
     
