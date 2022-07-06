@@ -12,21 +12,27 @@ editor_options:
 ---
 
 ```{=html}
-<script>
-  $(document).ready(function() {
-    $('#TOC').parent().prepend('<div id=\"nav_logo\"><img src=\"myimage.png\"></div>');
-  });
-</script>
-```
-```{=html}
 <style>
+#img0 {
+  border-radius: 60%;
+}
+
 #nav_logo {
-  border-radius: 50%;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
 }
 </style>
 ```
+
+```{=html}
+<script>
+  $(document).ready(function() {
+    $('#TOC').parent().prepend('<div id=\"nav_logo\"><img id = "img0" src=\"myimage.png\"></div>');
+  });
+</script>
+```
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
